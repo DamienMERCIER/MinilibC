@@ -3,7 +3,6 @@ global memcpy
 
 memcpy:
 	xor rcx, rcx
-	jmp loop
 
 loop:
     cmp rcx, rdx
